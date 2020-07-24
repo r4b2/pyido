@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 SHELL ["/bin/bash", "-i", "-c"]
 
-ARG PYTHON_VERSION=3.7.5
+ARG PYTHON_VERSION=3.7.8
 ARG PYINSTALLER_VERSION=3.6
 
 ENV PYPI_URL=https://pypi.python.org/
