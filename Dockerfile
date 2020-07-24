@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:stretch
 SHELL ["/bin/bash", "-i", "-c"]
 
 ARG PYTHON_VERSION=3.7.8
@@ -29,7 +29,6 @@ RUN \
         libffi-dev \
         #optional libraries
         libgdbm-dev \
-        libgdbm6 \
         uuid-dev \
         #upx
         upx \
