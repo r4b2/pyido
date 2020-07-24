@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM debian:buster
 SHELL ["/bin/bash", "-i", "-c"]
 
 ARG PYTHON_VERSION=3.7.8
