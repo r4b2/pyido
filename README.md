@@ -3,7 +3,7 @@ pyido
 Based on:
 
 https://github.com/cdrx/docker-pyinstaller  
-https://github.com/Toilal/docker-pyinstaller
+https://github.com/Toilal/docker-pyinstaller  
 https://github.com/cdrx/docker-pyinstaller/pull/90
 
 Usage:
