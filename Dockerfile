@@ -2,7 +2,7 @@ FROM debian:stretch
 SHELL ["/bin/bash", "-i", "-c"]
 
 ARG PYTHON_VERSION=3.7.9
-ARG PYINSTALLER_VERSION=4.0
+ARG PYINSTALLER_VERSION=4.1
 
 ENV PYPI_URL=https://pypi.python.org/
 ENV PYPI_INDEX_URL=https://pypi.python.org/simple
